@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,300;0,400;0,600;0,700;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,400;0,600;0,700;1,100;1,400;1,700&family=Source+Serif+Pro:wght@300;400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.linear-gradient {
+  background: linear-gradient(
+    179.14deg,
+    rgba(32, 18, 63, 0) -7.14%,
+    #000000 87.01%
+  );
+}
+.bg-image {
+  background-image: url("./assets/bg-image.png");
+  background-position: fixed center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(0.8);
+}
